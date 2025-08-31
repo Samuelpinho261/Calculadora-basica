@@ -1,0 +1,71 @@
+/* Estilo base */
+body {
+  background-color: #000; /* preto */
+  color: #0f0; /* verde */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+}
+
+h1 {
+  margin: 0;
+  color: #0f0;
+}
+
+/* Formulário */
+main {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  color: #0f0;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #0f0;
+  border-radius: 4px;
+  background-color: #000;
+  color: #0f0;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c0;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #111;
+  color: #0f0;
+  margin-top: 40px;
+}
