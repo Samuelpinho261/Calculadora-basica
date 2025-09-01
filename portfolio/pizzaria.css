@@ -1,13 +1,13 @@
-/* Estilo base */
+
 body {
-  background-color: #000; /* preto */
-  color: #0f0; /* verde */
+  background-color: #000; 
+  color: #0f0; 
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Cabeçalho */
+
 header {
   text-align: center;
   padding: 20px;
@@ -19,7 +19,7 @@ h1 {
   color: #0f0;
 }
 
-/* Formulário */
+
 main {
   max-width: 400px;
   margin: 30px auto;
@@ -61,7 +61,7 @@ button:hover {
   background-color: #0c0;
 }
 
-/* Rodapé */
+
 footer {
   text-align: center;
   padding: 15px;

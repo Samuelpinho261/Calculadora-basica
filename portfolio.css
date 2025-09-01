@@ -1,14 +1,14 @@
-/* Paleta de cores */
+
 :root {
-  --fundo: #0f172a;
-  --texto: #f1f5f9;
+  --fundo: #a3b6e1;
+  --texto: #010408;
   --destaque: #38bdf8;
 }
 
-/* Reset básico */
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* Corpo da página */
+
 body {
   font-family: Arial, sans-serif;
   background: var(--fundo);
@@ -16,15 +16,15 @@ body {
   line-height: 1.6;
 }
 
-/* Cabeçalho fixo no topo */
+
 header {
-  background: rgba(15, 23, 42, .9);
+  background: rgba(27, 56, 125, 0.9);
   padding: 1rem;
   position: sticky;
   top: 0;
 }
 
-/* Menu de navegação */
+
 nav a {
   color: var(--texto);
   margin: 0 10px;
@@ -34,15 +34,15 @@ nav a:hover {
   color: var(--destaque);
 }
 
-/* Espaçamento das seções */
+
 section {
   padding: 2rem;
 }
 
-/* Lista simples */
+
 ul { list-style: disc; margin-left: 20px; }
 
-/* Formulário de contato */
+
 form {
   display: grid;
   gap: 10px;
@@ -60,7 +60,7 @@ button {
   cursor: pointer;
 }
 
-/* Rodapé centralizado */
+
 footer {
   text-align: center;
   padding: 1rem;
